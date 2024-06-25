@@ -6,8 +6,6 @@
             <h1>HI,{{ nick_name }} ({{ mode }})</h1>
           </div>
           <div>
-            <!-- <img v-if="isBell1" @click="notifyMe()" class="notice" src="../assets/bell1.png" alt="" >
-            <img v-if="isBell2" @click="notifyMe()" class="notice" src="../assets/bell2.png" alt="" > -->
             <img :src="avatarurl" alt="" style="width: 30px;height: 30px;border-radius: 50%; position: relative;margin-left: 10px;margin-top: 5px;">
           </div>
         </div>
