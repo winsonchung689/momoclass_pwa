@@ -49,8 +49,6 @@
                         :src="img.src" 
                         :preview-src-list=[img.src]>
                       </el-image>
-
-                      <!-- <img :src="img.src" width="90%" class="min" @click="ZoomIn(index_out+'_'+index)" alt=""> -->
                     </div>
                 </div>
                 <div class="max" :style="{display:display}">
